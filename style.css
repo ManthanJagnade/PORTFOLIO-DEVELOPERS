@@ -19,6 +19,12 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   background:#edf3f8;
   color: #212121;
 }
+
+/*  */
+#main{
+  height: 100vh;
+}
+/*  */
 body{
   margin: 0;
   padding: 0;
@@ -129,9 +135,9 @@ html{
 {
   position: relative;
   list-style: none;
-  width: 170px;
+  width: 180px;
   background-color: #3e3f46;
-  padding: 15px;
+  padding: 10px;
   z-index: var(--i);
 }
 #nav ul li:hover{
@@ -144,7 +150,7 @@ html{
   top: 0;
   left: -40px;
   width: 40px;
-  height: 50px;
+  height: 40px;
   background:#2e3133;
   transform-origin: right;
   transform: skewY(45deg);
